@@ -46,7 +46,10 @@ then
 
 elif [ "$option" -eq "6" ]
 then
-echo "$command" > ~/.config/youtube-dl/config
+echo "-no-mtime -o 
+/data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s "
+> ~/.config/youtube-dl/config
+youtube-dl $1
 
 elif [ "$option" -eq "7" ]
 then
