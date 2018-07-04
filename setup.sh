@@ -24,7 +24,7 @@ echo -e "Creating bin folder\n"
 mkdir ~/bin
 
 echo -e "Downloading and installing termux-url-opener\n"
-wget http://pastebin.com/raw/LhDxGbtY -O ~/bin/termux-url-opener
+wget https://raw.githubusercontent.com/sagniKdas53/YouTube--dl-termux/master/termux-url-opener -O ~/bin/termux-url-opener
 dos2unix ~/bin/termux-url-opener
 
 echo -e "\n"
