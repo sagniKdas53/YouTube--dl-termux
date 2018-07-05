@@ -1,7 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# Copyright 2017 Gabi Tiplea
 
-echo "Copyright 2017 Gabi Tiplea"
 echo "For audio only press 1"
 echo "For video 360p press 2"
 echo "For video 480p press 3"
@@ -46,9 +44,7 @@ then
 
 elif [ "$option" -eq "6" ]
 then
-echo "-no-mtime -o 
-/data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s "
-> ~/.config/youtube-dl/config
+echo "-no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s "> ~/.config/youtube-dl/config
 youtube-dl $1
 
 elif [ "$option" -eq "7" ]
