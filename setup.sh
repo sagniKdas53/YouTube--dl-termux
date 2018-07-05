@@ -1,5 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# 4/05/2017 Gabi Tiplea
 
 echo -e "Updating default packages\n"
 apt update && apt -y upgrade
